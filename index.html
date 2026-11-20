@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Skills</title>
+</head>
+<body style="margin: 0; padding: 40px 16px; background-color: #fafafa; font-family: Arial, Helvetica, sans-serif; color: #333333;">
+
+  <h1 style="margin: 0 0 56px; text-align: center; font-size: 24px;">My Skills (Static — HTML only)</h1>
+
+  <!-- HTML skill: blue -->
+  <div style="width: 100%; max-width: 760px; margin: 0 auto 20px; text-align: center;">
+    <label for="html-skill" style="display: block; margin-bottom: 4px; font-size: 16px; font-weight: bold; color: #000000;">HTML</label>
+    <div style="display: flex; align-items: center; gap: 16px;">
+      <input type="range" id="html-skill" min="0" max="100" value="90"
+             style="flex: 1; min-width: 0; height: 14px; accent-color: #007bff; pointer-events: none;">
+      <span style="width: 48px; text-align: left; font-size: 16px; font-weight: bold; color: #000000;">90%</span>
+    </div>
+  </div>
+
+  <!-- CSS skill: green -->
+  <div style="width: 100%; max-width: 760px; margin: 0 auto 20px; text-align: center;">
+    <label for="css-skill" style="display: block; margin-bottom: 4px; font-size: 16px; font-weight: bold; color: #000000;">CSS</label>
+    <div style="display: flex; align-items: center; gap: 16px;">
+      <input type="range" id="css-skill" min="0" max="100" value="80"
+             style="flex: 1; min-width: 0; height: 14px; accent-color: #28a745; pointer-events: none;">
+      <span style="width: 48px; text-align: left; font-size: 16px; font-weight: bold; color: #000000;">80%</span>
+    </div>
+  </div>
+
+  <!-- JavaScript skill: yellow -->
+  <div style="width: 100%; max-width: 760px; margin: 0 auto 20px; text-align: center;">
+    <label for="js-skill" style="display: block; margin-bottom: 4px; font-size: 16px; font-weight: bold; color: #000000;">JavaScript</label>
+    <div style="display: flex; align-items: center; gap: 16px;">
+      <input type="range" id="js-skill" min="0" max="100" value="65"
+             style="flex: 1; min-width: 0; height: 14px; accent-color: #ffc107; pointer-events: none;">
+      <span style="width: 48px; text-align: left; font-size: 16px; font-weight: bold; color: #000000;">65%</span>
+    </div>
+  </div>
+
+  <p style="max-width: 760px; margin: 56px auto 0; font-size: 16px; color: #555555;">
+    Note: This version uses <code style="font-size: 13px;">&lt;input type="range"&gt;</code> only.
+    The colored bars are styled with the <code style="font-size: 13px;">accent-color</code> property.
+  </p>
+
+</body>
+</html>
